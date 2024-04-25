@@ -1,6 +1,6 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "風を追うの開発ルーチン",
+  title: "風を追うの学習パス",
   /** your name */
   author: "Aurora",
   /** website description */
