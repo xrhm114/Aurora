@@ -1,6 +1,6 @@
 ---
 title: 连载3：利用matlab计算卷积
-pubDate: 2024-04-25T14:41:00
+pubDate: 2010-4-10 20:56:48
 categories: ['communication principles']
 description: 'matlab conv'
 includeGreeting: true
