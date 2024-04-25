@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^1.1.64
     version: 1.1.64
   '@types/markdown-it':
-    specifier: ^13.0.7
-    version: 13.0.7
+    specifier: ^14.0.1
+    version: 14.0.1
   '@types/node':
     specifier: ^20.12.7
     version: 20.12.7
@@ -78,7 +78,7 @@ devDependencies:
     version: 2.12.1
   unocss:
     specifier: ^0.58.5
-    version: 0.58.5(postcss@8.4.35)(vite@5.2.8)
+    version: 0.58.5(postcss@8.4.38)(vite@5.2.8)
 
 packages:
 
@@ -1377,8 +1377,8 @@ packages:
     resolution: {integrity: sha512-yg6E+u0/+Zjva+buc3EIb+29XEg4wltq7cSmd4Uc2EE/1nUVmxyzpX6gUXD0V8jIrG0r7YeOGVIbYRkxeooCtw==}
     dev: true
 
-  /@types/markdown-it@13.0.7:
-    resolution: {integrity: sha512-U/CBi2YUUcTHBt5tjO2r5QV/x0Po6nsYwQU4Y04fBS6vfoImaiZ6f8bi3CjTCxBPQSO1LMyUqkByzi8AidyxfA==}
+  /@types/markdown-it@14.0.1:
+    resolution: {integrity: sha512-6WfOG3jXR78DW8L5cTYCVVGAsIFZskRHCDo5tbqa+qtKVt4oDRVH7hyIWu1SpDQJlmIoEivNQZ5h+AGAOrgOtQ==}
     dependencies:
       '@types/linkify-it': 3.0.5
       '@types/mdurl': 1.0.5
@@ -1510,7 +1510,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.58.5(postcss@8.4.35):
+  /@unocss/postcss@0.58.5(postcss@8.4.38):
     resolution: {integrity: sha512-m4L2YRdYfT6CV306Kl2VwEwbqa/92EpW4GE2Kqak1RuJyFJXBnWEEMJV4Uy6B1jWKLlCEWkuVUW33JUg7X6BxQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1522,7 +1522,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.7
-      postcss: 8.4.35
+      postcss: 8.4.38
     dev: true
 
   /@unocss/preset-attributify@0.58.5:
@@ -5263,7 +5263,7 @@ packages:
       unist-util-visit-parents: 6.0.1
     dev: false
 
-  /unocss@0.58.5(postcss@8.4.35)(vite@5.2.8):
+  /unocss@0.58.5(postcss@8.4.38)(vite@5.2.8):
     resolution: {integrity: sha512-0g4P6jLgRRNnhscxw7nQ9RHGrKJ1UPPiHPet+YT3TXUcmy4mTiYgo9+kGQf5bjyrzsELJ10cT6Qz2y6g9Tls4g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -5279,7 +5279,7 @@ packages:
       '@unocss/cli': 0.58.5
       '@unocss/core': 0.58.5
       '@unocss/extractor-arbitrary-variants': 0.58.5
-      '@unocss/postcss': 0.58.5(postcss@8.4.35)
+      '@unocss/postcss': 0.58.5(postcss@8.4.38)
       '@unocss/preset-attributify': 0.58.5
       '@unocss/preset-icons': 0.58.5
       '@unocss/preset-mini': 0.58.5
