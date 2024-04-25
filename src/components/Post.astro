@@ -31,5 +31,13 @@ function getCategoryUrl(category: string) {
       }
     </div>
   </header>
+
+    <!-- 检查是否需要添加固定文本 -->
+    {post.data.includeGreeting && (
+      <div class="repeating-content">
+        摘自·通信人家园·陈爱军
+      </div>
+    )}
+    
   <slot />
 </article>
