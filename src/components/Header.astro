@@ -1,6 +1,6 @@
 ---
 import type { HTMLAttributes } from 'astro/types'
-
+import ThemeIcon from './ThemeIcon.astro';
 type Props = HTMLAttributes<'header'>
 
 const { ...attrs } = Astro.props
@@ -22,8 +22,9 @@ const { translate: t } = Astro.locals
       <h1 class="text-8 font-extrabold font-serif">{title}</h1>
     </a>
   </hgroup>
-
+  <ThemeIcon />
   <nav class="text-center font-bold" un-flex="~ col gap-2">
+    
     <ul un-lg="flex-col items-start text-4" class="text-3.5" un-flex="~ row gap-2 justify-center">
       {
         navs.map((nav) => (

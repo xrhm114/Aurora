@@ -1,3 +1,37 @@
+.dark {
+  --link-color: rgb(180, 241, 241);
+  --link-hover-color: rgb(222, 235, 235);
+  --background-color: #1e1f29;
+  --text-color: #e1e1e6;
+  /*--code-background: #3e3e42;*/
+  --code-color: #ff6188;
+  /*--blockquote-border: #555;*/
+}
+
+/* 深色模式样式 */
+.dark a, .dark article.heti a, .dark article.heti a code {
+  color: var(--link-color); /* 使用深色模式变量 */
+}
+
+.dark a:hover, .dark article.heti a:hover, .dark article.heti a code:hover {
+  color: var(--link-hover-color); /* 使用深色模式变量 */
+}
+
+.dark body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.dark article.heti code {
+  background-color: var(--code-background);
+  color: var(--code-color);
+}
+
+.dark article.heti blockquote {
+  border-left-color: var(--blockquote-border);
+}
+
+
 body {
   --uno: antialiased;
   color: theme("colors.foreground");
@@ -98,3 +132,5 @@ article.heti blockquote p {
   margin-block-start: 12px;
   margin-block-end: 12px;
 }
+
+
