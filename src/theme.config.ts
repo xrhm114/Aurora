@@ -15,15 +15,15 @@ export const THEME_CONFIG: App.Locals['config'] = {
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/xrhm114",
     },
     {
       name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://twitter.com/xrhm77148",
     },
     {
       name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://mastodon.social/@xrhm114",
     },
     {
       name: "rss",
