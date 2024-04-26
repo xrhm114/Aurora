@@ -22,6 +22,7 @@
     "astro-robots-txt": "^1.0.0",
     "astro-seo": "^0.8.3",
     "giscus": "^1.5.0",
+    "katex": "^0.16.10",
     "typescript": "^5.3.3",
     "vite": "^5.2.8"
   },
