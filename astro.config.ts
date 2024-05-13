@@ -3,7 +3,7 @@ import UnoCSS from 'unocss/astro';
 import { THEME_CONFIG } from "./src/theme.config";
 import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
-import mdx from "@astrojs/mdx";
+// import mdx from "@astrojs/mdx";
 
 export default defineConfig({
   site: THEME_CONFIG.website,
@@ -22,6 +22,6 @@ export default defineConfig({
     }),
     robotsTxt(),
     sitemap(),
-    mdx()
+    // mdx()
   ]
 });

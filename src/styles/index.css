@@ -1,8 +1,8 @@
 .dark {
-  --link-color: rgb(180, 241, 241);
+  --link-color: rgb(142, 216, 229);
   --link-hover-color: rgb(222, 235, 235);
-  --background-color: #1e1f29;
-  --text-color: #e1e1e6;
+  --background-color: rgb(31,31,31);
+  --text-color: rgb(156, 186, 234);
   /*--code-background: #3e3e42;*/
   --code-color: #ff6188;
   /*--blockquote-border: #555;*/
