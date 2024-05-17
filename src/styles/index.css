@@ -205,8 +205,8 @@ article.heti blockquote p {
 @media (min-width: 1000px) {
   .img-responsive {
     width: 14vw; /* 中等屏幕的宽度 */
-    top: 25%;
-    left: 35%;
+    top: 35%;
+    left: 42%;
   }
 }
 
@@ -215,7 +215,7 @@ article.heti blockquote p {
   .img-responsive {
     width: 16vw; /* 较大屏幕的宽度 */
     top: 25%;
-    left: 35%;
+    left: 42%;
   }
 }
 
