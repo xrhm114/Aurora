@@ -148,4 +148,74 @@ article.heti blockquote p {
   height: 100%;
 }
 
+/* 基本样式，适用于所有尺寸 */
+.img-responsive {
+  width: 6vw; /* 默认宽度 */
+  height: auto; /* 保持宽高比 */
+  position: absolute;
+  top: 7%; /* 默认位置 */
+  left: 47%; /* 默认位置 */
+}
+
+/* 当屏幕宽度至少为 200px 时的样式 */
+@media (min-width: 200px) {
+  .img-responsive {
+    width: 20vw; /* 较小屏幕的宽度 */
+    position: absolute;
+    top: 110px; 
+    left: 80%;
+  }
+}
+/* 当屏幕宽度至少为 300px 时的样式 */
+@media (min-width: 300px) {
+  .img-responsive {
+    width: 16vw; /* 较小屏幕的宽度 */
+    top: 85px; 
+    left: 80%;
+  }
+}
+/* 当屏幕宽度至少为 400px 时的样式 */
+@media (min-width: 400px) {
+  .img-responsive {
+    width: 16vw; /* 较小屏幕的宽度 */
+    position: absolute;
+    top: 10px; 
+    left: 80%;
+  }
+}
+/* 当屏幕宽度至少为 600px 时的样式 */
+@media (min-width: 600px) {
+  .img-responsive {
+    width: 12vw; /* 较小屏幕的宽度 */
+    top: 20px; 
+    left: 85%;
+  }
+}
+
+/* 当屏幕宽度至少为 700px 时的样式 */
+@media (min-width: 900px) {
+  .img-responsive {
+    width: 10vw; /* 中等屏幕的宽度 */
+    top: 20px;
+    left: 80%;
+  }
+}
+
+/* 当屏幕宽度至少为 1000px 时的样式 */
+@media (min-width: 1000px) {
+  .img-responsive {
+    width: 14vw; /* 中等屏幕的宽度 */
+    top: 25%;
+    left: 35%;
+  }
+}
+
+/* 当屏幕宽度至少为 1200px 时的样式 */
+@media (min-width: 1200px) {
+  .img-responsive {
+    width: 16vw; /* 较大屏幕的宽度 */
+    top: 25%;
+    left: 35%;
+  }
+}
 
