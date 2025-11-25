@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "repository": "https://github.com/moeyua/astro-theme-typography",
   "scripts": {
-    "dev": "astro check && astro dev",
+    "dev": "astro check && astro dev --port 4322",
     "preview": "astro preview",
     "build": "astro check && astro build",
     "release": "esno scripts/release.ts",
